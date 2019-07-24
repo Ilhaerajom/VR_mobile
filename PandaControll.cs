@@ -31,7 +31,7 @@ public class PandaControll : MonoBehaviour {
             anim.SetFloat("Speed", h);
         }
         if (Input.GetKey(KeyCode.LeftArrow)) {
-            key = 0.5f;
+            key = -0.5f;
             anim.SetFloat("Speed", h);
         }
         float speedA = Mathf.Abs(this.rigid2D.velocity.x);
