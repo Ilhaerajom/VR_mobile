@@ -8,14 +8,14 @@ public class creator : MonoBehaviour {
     public Vector3 randomPosRange = Vector3.up;
     public Vector3 velocity = Vector3.left;
 
-    public float offsrtTime = 0f;
+    public float offsetTime = 0f;
     public float intervalTime = 3f;
     public float leftTime = 5f;
     private float mTime = 0f;
 
 	// Use this for initialization
 	void Start () {
-        mTime = -offsrtTime;
+        mTime = -offsetTime;
 	}
 	
 	// Update is called once per frame
@@ -27,10 +27,10 @@ public class creator : MonoBehaviour {
         }
         if (mTime >= intervalTime) {
             Vector3 randomPos = Vector3.one;
-            randomPos.x = Random.Range(-randomPosRange.x, randomPosRange.x);
-            randomPos.y = Random.Range(-randomPosRange.y, randomPosRange.y);
+            randomPos.x = Random.Range(-randomPosRange.x,randomPosRange.x);
+            randomPos.y = Random.Range(-randomPosRange.y,randomPosRange.y);
             Vector3 pos = transform.position + randomPos;
-            GameObject obj = Instantiate(prefab, pos, transform.rotation) as GameObject;
+            GameObject obj = Instantiate(prefab,pos,transform.rotation) as GameObject;
             obj.GetComponent<Rigidbody2D>().velocity = velocity;
             Destroy(obj, leftTime);
             mTime = 0f;
