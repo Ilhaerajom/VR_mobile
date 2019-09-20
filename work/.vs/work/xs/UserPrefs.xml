@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{7E9DF9C8-0F10-1792-D90A-5562E712173D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/02_Script/ObjectView.cs">
+    <Files>
+      <File FileName="Assets/02_Script/CartManage.cs" Line="48" Column="30" />
+      <File FileName="Assets/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs" Line="102" Column="15" />
+      <File FileName="Assets/GoogleVR/Demos/Scripts/HelloVR/ObjectController.cs" Line="51" Column="30" />
+      <File FileName="Assets/02_Script/ObjectView.cs" Line="15" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="99e6789a-34c4-4a2f-a62f-0219b6fead62" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
