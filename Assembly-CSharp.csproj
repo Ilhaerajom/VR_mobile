@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\02_Script\Cart.cs" />
     <Compile Include="Assets\02_Script\CartManage.cs" />
     <Compile Include="Assets\02_Script\CartSpeed.cs" />
     <Compile Include="Assets\02_Script\ObjectView.cs" />
